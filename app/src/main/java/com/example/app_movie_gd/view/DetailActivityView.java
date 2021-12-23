@@ -51,7 +51,6 @@ public class DetailActivityView extends AppCompatActivity implements DetailsView
         overview.setText("Descripcion: \n" + movies.getOverview());
         Glide.with(imageView.getContext())
                 .load(Endpoints.URL_BASE_IMAGE + movies.getPosterPath())
-                .placeholder(R.drawable.loading)
                 .into(imageView);
         presenter.getMovieDetails(movies);
     }

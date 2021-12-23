@@ -77,7 +77,6 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.MovieViewHol
             tvRating.setText("Popularidad: " + movies.getPopularity().toString());
             Glide.with(ivMovie.getContext())
                     .load(Endpoints.URL_BASE_IMAGE + movies.getPosterPath())
-                    .placeholder(R.drawable.loading)
                     .into(ivMovie);
 
         }
