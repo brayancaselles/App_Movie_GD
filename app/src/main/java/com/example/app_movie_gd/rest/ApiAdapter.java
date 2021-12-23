@@ -1,6 +1,6 @@
-package com.example.aflore_prueba.rest;
+package com.example.app_movie_gd.rest;
 
-import com.example.aflore_prueba.interfaces.rest.JsonApi;
+import com.example.app_movie_gd.interfaces.rest.JsonApi;
 
 import okhttp3.OkHttpClient;
 import retrofit2.Retrofit;

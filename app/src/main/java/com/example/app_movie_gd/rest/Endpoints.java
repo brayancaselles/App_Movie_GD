@@ -1,4 +1,4 @@
-package com.example.aflore_prueba.rest;
+package com.example.app_movie_gd.rest;
 
 public class Endpoints {
     public static final String URL_BASE = "https://api.themoviedb.org/3/movie/";
