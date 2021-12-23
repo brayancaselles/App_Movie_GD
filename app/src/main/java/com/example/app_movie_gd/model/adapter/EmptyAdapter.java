@@ -21,7 +21,7 @@ public class EmptyAdapter extends RecyclerView.Adapter<EmptyAdapter.EmtyViewHold
 
     @Override
     public void onBindViewHolder(@NonNull EmtyViewHolder holder, int position) {
-        //Unnecesary
+
     }
 
     @Override

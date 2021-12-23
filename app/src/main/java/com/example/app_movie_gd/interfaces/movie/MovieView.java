@@ -1,6 +1,7 @@
 package com.example.app_movie_gd.interfaces.movie;
 
-import com.example.aflore_prueba.model.movie.Movies;
+
+import com.example.app_movie_gd.model.movie.Movies;
 
 import java.util.List;
 
