@@ -1,4 +1,4 @@
-package com.example.aflore_prueba.interfaces.rest;
+package com.example.app_movie_gd.interfaces.rest;
 
 import com.example.aflore_prueba.model.movie.ListMovieEntitys;
 import com.example.aflore_prueba.rest.Endpoints;

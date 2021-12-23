@@ -1,10 +1,10 @@
-package com.example.aflore_prueba.model.details;
+package com.example.app_movie_gd.model.details;
 
 import android.content.Context;
 
-import com.example.aflore_prueba.interfaces.details.DetailsInteractor;
-import com.example.aflore_prueba.interfaces.details.DetailsPresenter;
-import com.example.aflore_prueba.model.movie.Movies;
+import com.example.app_movie_gd.interfaces.details.DetailsInteractor;
+import com.example.app_movie_gd.interfaces.details.DetailsPresenter;
+import com.example.app_movie_gd.model.movie.Movies;
 
 public class DetailsInteractorImpl implements DetailsInteractor {
 

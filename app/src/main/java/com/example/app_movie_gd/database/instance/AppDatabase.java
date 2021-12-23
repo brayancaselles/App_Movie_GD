@@ -1,4 +1,4 @@
-package com.example.aflore_prueba.database.instance;
+package com.example.app_movie_gd.database.instance;
 
 import android.content.Context;
 
@@ -6,8 +6,8 @@ import androidx.room.Database;
 import androidx.room.Room;
 import androidx.room.RoomDatabase;
 
-import com.example.aflore_prueba.database.dao.MovieDao;
-import com.example.aflore_prueba.model.movie.Movies;
+import com.example.app_movie_gd.database.dao.MovieDao;
+import com.example.app_movie_gd.model.movie.Movies;
 
 @Database(entities = {Movies.class}, version = 1, exportSchema = false)
 public abstract class AppDatabase extends RoomDatabase {

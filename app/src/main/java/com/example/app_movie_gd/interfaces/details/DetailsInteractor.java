@@ -1,4 +1,4 @@
-package com.example.aflore_prueba.interfaces.details;
+package com.example.app_movie_gd.interfaces.details;
 
 import com.example.aflore_prueba.model.movie.Movies;
 

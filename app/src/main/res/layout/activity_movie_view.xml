@@ -4,62 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.DetailActivityView"
-    android:background="#B3E5FC">
-    <ImageView
-        android:id="@+id/ivMovie"
-        android:layout_width="match_parent"
-        android:layout_height="350dp"
-        android:src="@drawable/loading"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintVertical_bias="0.1"
-        />
+    tools:context=".view.DetailActivityView">
 
-    <TextView
-        android:id="@+id/tvTitleMovie"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="16sp"
-        android:textAlignment="center"
-        app:layout_constraintTop_toBottomOf="@+id/ivMovie"
-        app:layout_constraintBottom_toTopOf="@+id/tvOverview"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintVertical_bias="0.25"
-        />
-
-    <TextView
-        android:id="@+id/tvRatingMovie"
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:textSize="16sp"
-        app:layout_constraintTop_toBottomOf="@+id/tvTitleMovie"
-        app:layout_constraintBottom_toTopOf="@+id/tvOverview"
-        app:layout_constraintEnd_toStartOf="@+id/tvReleaseDate"
-        app:layout_constraintStart_toStartOf="parent"
-        />
-    <TextView
-        android:id="@+id/tvReleaseDate"
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:textSize="16sp"
-        app:layout_constraintTop_toBottomOf="@+id/tvTitleMovie"
-        app:layout_constraintBottom_toTopOf="@+id/tvOverview"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/tvRatingMovie"/>
-
-    <TextView
-        android:id="@+id/tvOverview"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:textSize="14sp"
-        android:padding="10pt"
-        app:layout_constraintTop_toBottomOf="@+id/tvReleaseDate"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

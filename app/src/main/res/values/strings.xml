@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">App_Movie_GD</string>
+    <string name="generic_message_progress">Por favor espere...</string>
+    <string name="saved_movie_message">Datos almacenados con éxito</string>
+    <string name="list_is_empty">Lista vacia</string>
 </resources>

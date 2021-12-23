@@ -1,11 +1,10 @@
-package com.example.aflore_prueba.model.movie;
+package com.example.app_movie_gd.model.movie;
 
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;
 import androidx.room.Ignore;
 import androidx.room.PrimaryKey;
 
-import com.example.aflore_prueba.rest.Endpoints;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 

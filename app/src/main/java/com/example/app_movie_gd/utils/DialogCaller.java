@@ -1,9 +1,9 @@
-package com.example.aflore_prueba.utils;
+package com.example.app_movie_gd.utils;
 
 import android.app.AlertDialog;
 import android.content.Context;
 
-import com.example.aflore_prueba.R;
+import com.example.app_movie_gd.R;
 
 public class DialogCaller {
 

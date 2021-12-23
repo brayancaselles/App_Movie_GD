@@ -1,12 +1,12 @@
-package com.example.aflore_prueba.presenter.movie;
+package com.example.app_movie_gd.presenter.movie;
 
 import android.content.Context;
 
-import com.example.aflore_prueba.interfaces.movie.MovieInteractor;
-import com.example.aflore_prueba.interfaces.movie.MoviePresenter;
-import com.example.aflore_prueba.interfaces.movie.MovieView;
-import com.example.aflore_prueba.model.movie.Movies;
-import com.example.aflore_prueba.model.movie.MovieInteractorImpl;
+import com.example.app_movie_gd.interfaces.movie.MovieInteractor;
+import com.example.app_movie_gd.interfaces.movie.MoviePresenter;
+import com.example.app_movie_gd.interfaces.movie.MovieView;
+import com.example.app_movie_gd.model.movie.MovieInteractorImpl;
+import com.example.app_movie_gd.model.movie.Movies;
 
 import java.util.List;
 

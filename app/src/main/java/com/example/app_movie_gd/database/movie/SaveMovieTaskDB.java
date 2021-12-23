@@ -1,13 +1,12 @@
-package com.example.aflore_prueba.database.movie;
+package com.example.app_movie_gd.database.movie;
 
 import android.content.Context;
 import android.os.AsyncTask;
 
-import com.example.aflore_prueba.R;
-import com.example.aflore_prueba.model.movie.Movies;
+import com.example.app_movie_gd.R;
+import com.example.app_movie_gd.model.movie.Movies;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class SaveMovieTaskDB extends AsyncTask<ArrayList<Movies>, Void, String> {
 

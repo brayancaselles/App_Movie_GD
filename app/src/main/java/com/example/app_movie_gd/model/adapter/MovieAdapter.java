@@ -1,7 +1,6 @@
-package com.example.aflore_prueba.model.adapter;
+package com.example.app_movie_gd.model.adapter;
 
 import android.annotation.SuppressLint;
-import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,12 +10,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
-
-import com.bumptech.glide.Glide;
-import com.example.aflore_prueba.R;
-import com.example.aflore_prueba.model.movie.Movies;
-import com.example.aflore_prueba.rest.Endpoints;
-import com.example.aflore_prueba.view.DetailActivityView;
+import com.example.app_movie_gd.R;
+import com.example.app_movie_gd.model.movie.Movies;
 
 import java.util.List;
 
@@ -55,17 +50,10 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.MovieViewHol
 
         public MovieViewHolder(View itemView) {
             super(itemView);
-            tvTitle = itemView.findViewById(R.id.tvTitle);
-            tvRating = itemView.findViewById(R.id.tvRating);
-            ivMovie = itemView.findViewById(R.id.ivMovie);
-            layout = itemView.findViewById(R.id.layout);
 
             layout.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Intent intent = new Intent(itemView.getContext(), DetailActivityView.class);
-                    intent.putExtra("movie", movies);
-                    itemView.getContext().startActivity(intent);
                 }
             });
         }
@@ -73,13 +61,6 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.MovieViewHol
         @SuppressLint("SetTextI18n")
         void bindData(final Movies movies) {
             this.movies = movies;
-            // TODO: Comment
-            tvTitle.setText("Title: " + movies.getTitle());
-            tvRating.setText("Popularity: " + movies.getPopularity().toString());
-            Glide.with(ivMovie.getContext())
-                    .load(Endpoints.URL_BASE_IMAGE + movies.getPosterPath())
-                    .placeholder(R.drawable.loading)
-                    .into(ivMovie);
 
         }
     }

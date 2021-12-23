@@ -1,4 +1,4 @@
-package com.example.aflore_prueba.interfaces.details;
+package com.example.app_movie_gd.interfaces.details;
 
 public interface DetailsView {
 

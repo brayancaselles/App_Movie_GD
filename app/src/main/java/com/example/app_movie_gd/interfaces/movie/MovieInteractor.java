@@ -1,4 +1,4 @@
-package com.example.aflore_prueba.interfaces.movie;
+package com.example.app_movie_gd.interfaces.movie;
 
 public interface MovieInteractor {
 

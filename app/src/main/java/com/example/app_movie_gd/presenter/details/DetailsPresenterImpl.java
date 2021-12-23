@@ -1,12 +1,12 @@
-package com.example.aflore_prueba.presenter.details;
+package com.example.app_movie_gd.presenter.details;
 
 import android.content.Context;
 
-import com.example.aflore_prueba.interfaces.details.DetailsInteractor;
-import com.example.aflore_prueba.interfaces.details.DetailsPresenter;
-import com.example.aflore_prueba.interfaces.details.DetailsView;
-import com.example.aflore_prueba.model.details.DetailsInteractorImpl;
-import com.example.aflore_prueba.model.movie.Movies;
+import com.example.app_movie_gd.interfaces.details.DetailsInteractor;
+import com.example.app_movie_gd.interfaces.details.DetailsPresenter;
+import com.example.app_movie_gd.interfaces.details.DetailsView;
+import com.example.app_movie_gd.model.details.DetailsInteractorImpl;
+import com.example.app_movie_gd.model.movie.Movies;
 
 public class DetailsPresenterImpl implements DetailsPresenter {
     private DetailsView detailsView;
@@ -22,8 +22,4 @@ public class DetailsPresenterImpl implements DetailsPresenter {
         detailsInteractor.getMovieDetails(movies);
     }
 
-    /*@Override
-    public void showMessage(String message) {
-        detailsView.showMessage(message);
-    }*/
 }

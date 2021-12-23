@@ -1,4 +1,4 @@
-package com.example.aflore_prueba.model.adapter;
+package com.example.app_movie_gd.model.adapter;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -7,13 +7,13 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.aflore_prueba.R;
+import com.example.app_movie_gd.R;
 
 public class EmptyAdapter extends RecyclerView.Adapter<EmptyAdapter.EmtyViewHolder> {
 
     @NonNull
     @Override
-    public EmptyAdapter.EmtyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    public EmtyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.empty_view, parent, false);
         return new EmtyViewHolder(view);

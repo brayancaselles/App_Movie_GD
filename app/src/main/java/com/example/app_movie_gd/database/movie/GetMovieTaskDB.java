@@ -1,9 +1,9 @@
-package com.example.aflore_prueba.database.movie;
+package com.example.app_movie_gd.database.movie;
 
 import android.content.Context;
 import android.os.AsyncTask;
 
-import com.example.aflore_prueba.model.movie.Movies;
+import com.example.app_movie_gd.model.movie.Movies;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.example.aflore_prueba.model.movie;
+package com.example.app_movie_gd.model.movie;
 
 import androidx.annotation.NonNull;
 import androidx.room.Entity;
